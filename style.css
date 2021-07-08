@@ -1,0 +1,35 @@
+#menu-bar a{
+    text-decoration : none;
+    color           : black;
+    background-color: #43e2da;
+    font-family:helvetica, sans-serif;
+    font-weight: 800;
+  
+    
+    
+    padding-left: 25px;
+    padding-right: 5px;
+    padding-top: 2px;
+    float: left;
+}
+
+table{
+    border-collapse: collapse;
+    border-width: medium;
+    border-style: solid;
+    border-color: royalblue;
+    column-width: 10px;
+    grid-column-end: 5px;
+}
+
+th{
+    font-weight: 800;
+    color: #ffffff;
+    background-color: royalblue;  
+}
+
+a{
+    text-decoration: none;
+    
+}
+    
