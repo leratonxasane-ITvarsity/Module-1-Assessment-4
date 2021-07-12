@@ -1,19 +1,25 @@
 #menu-bar a{
     text-decoration : none;
-    color           : black;
-    background-color: #43e2da;
+    color           : white;
     font-family:helvetica, sans-serif;
     font-weight: 800;
-  
     
-    
-    padding-left: 25px;
-    padding-right: 5px;
-    padding-top: 2px;
+    background-image: url('images/button.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 200px;
+    height: 90px;
+    padding-left: 80px;
+    padding-top: 40px;
     float: left;
 }
 
+#menu-bar a:hover{
+    text-decoration: underline;
+}
+
 table{
+    background-image: url('images/let.gif');
     border-collapse: collapse;
     border-width: medium;
     border-style: solid;
@@ -28,8 +34,19 @@ th{
     background-color: royalblue;  
 }
 
+td{
+    color: white;
+}
+
 a{
     text-decoration: none;
     
 }
     
+body{
+    background-color: #43e2da;
+}
+
+a:hover{
+    text-decoration: underline;
+}
